@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+  <head>
+    <script type="text/javascript" src="scripts/d3.js"></script>
+    <script type="text/javascript" src="scripts/sine_curves.js"></script>
+    <style type="text/css">
+      html, body {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        font: 15px sans-serif;
+      }
+      .grid line {
+        stroke: #fff;
+        stroke-width: 1.5px;
+      }
+      .grid line.minor {
+        stroke-width: 0.5px;
+      }
+      .grid path {
+        display: none;
+      }
+      .axis {
+        stroke: #aaa;
+        stroke-width: 3px;
+      }
+      large {
+        font-size: 130%;
+      }
+    </style>
+    <title>Sine Curves</title>
+  </head>
+  
+  <body onload='initialize()' onresize='draw()'></body>
+
+</html>

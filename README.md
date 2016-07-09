@@ -1,2 +1,3 @@
-# sine-curves
-View sine curves
+# [Sine Curves](http://drknotter.github.io/sine-curves)
+
+This is a small demonstration I made for an introductory calculus course to aid in understanding the effect of amplitude, period, and phase shift of a sine curve. It allows for comparing multiple curves on the same graph. The parameters can be changed using the HTML5 sliders below the graph. Coded using JavaScript and the [d3](http://d3js.org/) library. 
